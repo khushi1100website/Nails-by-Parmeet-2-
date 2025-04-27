@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails by Parmeet | Professional Nail Salon</title>
+    <meta name="description" content="Elevate your style with exquisite nail artistry at Nails by Parmeet. Book your appointment today!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo">Nails by Parmeet</a>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav hidden">
+            <ul class="mobile-nav-list">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#services" class="mobile-nav-link">Services</a></li>
+                <li><a href="gallery.html" class="mobile-nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="mobile-nav-link">Reviews</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="hero-gradient"></div>
+
+            <div class="container hero-content">
+                <h1 class="hero-title animate-fade-in">Nails by Parmeet</h1>
+                <p class="hero-subtitle">
+                    Elevate your style with exquisite nail artistry that tells your unique story
+                </p>
+                <a href="#services" class="btn btn-primary">Book Now</a>
+            </div>
+
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">How Nails by Parmeet Came into Existence</h2>
+
+                <div class="about-content">
+                    <div class="about-image-container">
+                        <img src="images/about-image.jpg" alt="Nail art by Parmeet" class="about-image">
+                        <div class="about-image-overlay"></div>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            Founded during the lockdown, when the world slowed down and everything was uncertain, Parmeet discovered
+                            her passion for beauty and self-expression. In the quiet of isolation, she immersed herself in the world
+                            of nail artistry — researching, learning, perfecting.
+                        </p>
+                        <p>
+                            With a professional certification and unstoppable passion, she transformed her dream into reality,
+                            creating stunning nail art for every occasion.
+                        </p>
+                        <p class="about-quote">
+                            Nails by Parmeet is a story of hope, creativity, and turning passion into purpose.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Nail Services</h2>
+                <p class="section-subtitle">
+                    Discover our range of premium nail services designed to make you look and feel your best
+                </p>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3 class="service-title">Natural Gel Extension</h3>
+                        <p class="service-price">₹1400</p>
+                        <p class="service-description">Beautiful, natural-looking gel extensions for elegant nails.</p>
+                        <div class="service-overlay">
+                            <button class="btn btn-light book-btn" data-service="Natural Gel Extension" data-price="₹1400">Book an Appointment Now</button>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">French Gel Extension</h3>
+                        <p class="service-price">₹1600</p>
+                        <p class="service-description">Classic French tips with gel for a timeless, sophisticated look.</p>
+                        <div class="service-overlay">
+                            <button class="btn btn-light book-btn" data-service="French Gel Extension" data-price="₹1600">Book an Appointment Now</button>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">Inbuilt Glitter Extensions</h3>
+                        <p class="service-price">₹1800</p>
+                        <p class="service-description">Stunning glitter effects embedded within your gel extensions.</p>
+                        <div class="service-overlay">
+                            <button class="btn btn-light book-btn" data-service="Inbuilt Glitter Extensions" data-price="₹1800">Book an Appointment Now</button>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">3D Flowers</h3>
+                        <p class="service-price">₹2500</p>
+                        <p class="service-description">Exquisite 3D flower designs for a truly artistic nail experience.</p>
+                        <div class="service-overlay">
+                            <button class="btn btn-light book-btn" data-service="3D Flowers" data-price="₹2500">Book an Appointment Now</button>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">Gel Polish Application</h3>
+                        <p class="service-price">₹1200</p>
+                        <p class="service-description">Long-lasting, chip-resistant gel polish in your choice of color.</p>
+                        <div class="service-overlay">
+                            <button class="btn btn-light book-btn" data-service="Gel Polish Application" data-price="₹1200">Book an Appointment Now</button>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">Chrome Effect on Gel Polish</h3>
+                        <p class="service-price">₹1800</p>
+                        <p class="service-description">Stunning metallic chrome finish on your gel polish.</p>
+                        <div class="service-overlay">
+                            <button class="btn btn-light book-btn" data-service="Chrome Effect on Gel Polish" data-price="₹1800">Book an Appointment Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-all-services">
+                    <button class="btn btn-primary" id="view-all-services-btn">
+                        View All Services
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews-section">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">
+                    Don't just take our word for it - hear what our clients have to say about their experience
+                </p>
+
+                <div class="reviews-carousel">
+                    <div class="reviews-track">
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-stars">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                </div>
+                                <p class="review-text">"Parmeet is so good and quick with her work. I never miss out on having the nails of my dreams."</p>
+                                <p class="review-author">— Khushi</p>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-stars">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                </div>
+                                <p class="review-text">"What can I even say about her? Just one word — Perfect. Never gives me a reason to complain."</p>
+                                <p class="review-author">— Anna</p>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-stars">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                </div>
+                                <p class="review-text">"Nails by Parmeet is my go-to for any last-minute nail crisis. One time I had an impromptu event and called Parmeet for a last-minute appointment — she fit me in and delivered 100% as always."</p>
+                                <p class="review-author">— Manya</p>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-stars">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                </div>
+                                <p class="review-text">"I'll just say one thing: GO & BOOK YOUR APPOINTMENT NOW."</p>
+                                <p class="review-author">— Lavanya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-btn prev-btn" aria-label="Previous review">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <button class="carousel-btn next-btn" aria-label="Next review">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="carousel-dots">
+                        <button class="dot active" data-index="0" aria-label="Go to review 1"></button>
+                        <button class="dot" data-index="1" aria-label="Go to review 2"></button>
+                        <button class="dot" data-index="2" aria-label="Go to review 3"></button>
+                        <button class="dot" data-index="3" aria-label="Go to review 4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">
+                    Have questions or ready to book your appointment? Reach out to us!
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3 class="contact-card-title">Contact Information</h3>
+
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-item-title">Address</h4>
+                                        <p class="contact-item-text">A-24, Indra Park, New Lal Pur Colony, Delhi</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-item-title">Phone</h4>
+                                        <p class="contact-item-text">+91 9318447101</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M4 4h16c1.1 0 2 .9 2  stroke-linejoin="round">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                            <polyline points="22,6 12,13 2,6"></polyline>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-item-title">Email</h4>
+                                        <p class="contact-item-text">contact@nailsbyparmeet.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5376486173897!2d77.2!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzAwLjAiTiA3N8KwMTInMDAuMCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                                width="100%"
+                                height="100%"
+                                style="border: 0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                title="Nails by Parmeet location">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h3 class="contact-form-title">Send us a Message</h3>
+
+                        <div class="form-success-message hidden">
+                            <div class="success-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 13L9 17L19 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <h4 class="success-title">Message Sent!</h4>
+                            <p class="success-text">Thank you for reaching out. We'll get back to you shortly!</p>
+                        </div>
+
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="4" class="form-textarea" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                Send Message
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">Nails by Parmeet</p>
+            <p class="footer-copyright">© <span id="current-year"></span> All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+
+            <div class="booking-content">
+                <h3 class="modal-title">Book an Appointment</h3>
+
+                <div id="service-details" class="service-details"></div>
+
+                <h4 class="payment-title">Select Payment Method</h4>
+
+                <div class="payment-options">
+                    <button class="payment-option" data-payment="googlePay">
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#4285F4"></path>
+                                <path d="M12 11.5C13.1046 11.5 14 10.6046 14 9.5C14 8.39543 13.1046 7.5 12 7.5C10.8954 7.5 10 8.39543 10 9.5C10 10.6046 10.8954 11.5 12 11.5Z" fill="white"></path>
+                                <path d="M12 12.5C9.5 12.5 7.5 14 7.5 16.5H16.5C16.5 14 14.5 12.5 12 12.5Z" fill="white"></path>
+                            </svg>
+                        </div>
+                        <span>Google Pay</span>
+                    </button>
+
+                    <button class="payment-option" data-payment="paytm">
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="4" fill="#00BAF2"></rect>
+                                <path d="M7 12H17" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                <path d="M12 7V17" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
+                        <span>Paytm</span>
+                    </button>
+
+                    <button class="payment-option" data-payment="cash">
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="6" width="20" height="12" rx="2" stroke="#000000" stroke-width="2"></rect>
+                                <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" fill="#000000"></path>
+                            </svg>
+                        </div>
+                        <span>Cash Payment</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="thank-you-content hidden">
+                <div class="success-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 13L9 17L19 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <h3 class="modal-title">Thank You!</h3>
+                <p class="thank-you-text">Your appointment has been booked successfully. We look forward to seeing you!</p>
+                <button class="btn btn-primary close-thank-you">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- All Services Modal -->
+    <div id="all-services-modal" class="modal hidden">
+        <div class="modal-content services-modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+
+            <h3 class="modal-title">Complete Service Menu</h3>
+
+            <div class="services-table-container">
+                <table class="services-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Nail Anatomy</td><td>₹1000</td></tr>
+                        <tr><td>Nail Prep / Express Manicure</td><td>₹1500</td></tr>
+                        <tr><td>Natural Gel Extension</td><td>₹1400</td></tr>
+                        <tr><td>French Gel Extension</td><td>₹1600</td></tr>
+                        <tr><td>Inbuilt Glitter / Mylar Extensions in Gel</td><td>₹1800</td></tr>
+                        <tr><td>Inbuilt Foil Art / Dry Flower Extensions in Gel</td><td>₹2200</td></tr>
+                        <tr><td>Natural Acrylic Extension</td><td>₹1600</td></tr>
+                        <tr><td>French Acrylic Extension</td><td>₹1800</td></tr>
+                        <tr><td>Inbuilt Glitter / Mylar Extensions in Acrylic</td><td>₹2000</td></tr>
+                        <tr><td>Inbuilt Foil Art / Dry Flower Extensions in Acrylic</td><td>₹2500</td></tr>
+                        <tr><td>3D Flowers</td><td>₹2500</td></tr>
+                        <tr><td>Temporary Nail Extension</td><td>₹1000</td></tr>
+                        <tr><td>Gel Polish Application</td><td>₹1200</td></tr>
+                        <tr><td>Chrome Effect on Gel Polish</td><td>₹1800</td></tr>
+                        <tr><td>Cat Eye Effect on Gel Polish</td><td>₹2000</td></tr>
+                        <tr><td>Glitter Effects on Gel Polish</td><td>₹1600</td></tr>
+                        <tr><td>Mylar Effects on Gel Polish</td><td>₹1800</td></tr>
+                        <tr><td>Foil Paper Effects on Gel Polish</td><td>₹2000</td></tr>
+                        <tr><td>Ombre Effects in Gel Polish</td><td>₹1600</td></tr>
+                        <tr><td>Removals and Refills</td><td>₹500 - ₹1200</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-primary close-services">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
